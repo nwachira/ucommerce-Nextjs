@@ -1,3 +1,4 @@
+import SearchInput from "./ui/search";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
      <h1 className=" text-xl text-lime-500 shadow-md flex justify-center items-center">
      Bryan Welcome to Ucommerce 
      </h1>
+     <SearchInput/>
 
     </div>
   );
