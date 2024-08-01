@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import getProductData from '../../api/product'; 
 
+//Search Bar
+
 export default function useProducts() {
   const [products, setProducts] = useState([]);
 
@@ -21,6 +23,7 @@ export default function useProducts() {
 
   return products;
 }
+
 
 export function filterProducts(products, selectedCategories) {
     if (selectedCategories.length === 0) {
